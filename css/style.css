@@ -639,7 +639,7 @@ color: #fff;
 
 .close-popup:before {
   content: '';
-  background-color: #fff;
+  background-color: #FF0000;
   position: absolute;
   height: 1px;
   width: 31px;
@@ -650,7 +650,7 @@ color: #fff;
 
 .close-popup:after {
   content: '';
-  background-color:#FF0000 ;
+  background-color: #FF0000 ;
   position: absolute;
   height: 1px;
   width: 31px;
