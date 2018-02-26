@@ -78,10 +78,9 @@ jQuery(document).ready(function($) {
         });
         if( ferror ) return false; 
         else var str = $(this).serialize();		
-//             $.ajax({
-//                 type: "POST",
-//                 url: "contactform/contactform.php",
-//                 data: str,
+                     $.ajax({
+                 type: "POST",                 url: "contactform/contactform.php",
+                data: str,
                 success: function(msg){
                    // alert(msg);
                     if(msg == 'OK') {
